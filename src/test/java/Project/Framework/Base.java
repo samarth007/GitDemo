@@ -22,7 +22,8 @@ public class Base extends Initial{
 	
 	@BeforeTest
 	public void beforetest() throws IOException {
-	  
+	   System.out.println("ppp");
+	   System.out.println("kkkk");
 		driver=m(); 	
 	}
 	
@@ -63,6 +64,7 @@ public class Base extends Initial{
 	
 	@AfterTest
 	public void aftertest() {
+		System.out.println("kjkjk");
 		driver.close();
 	}       
 }

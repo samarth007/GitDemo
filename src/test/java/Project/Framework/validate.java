@@ -38,7 +38,7 @@ public class validate extends Initial{
 	
 	@AfterTest
 	public void aftertest() {
-		
+		System.out.println("uuuu");
 		driver.close();
 	}
 }
