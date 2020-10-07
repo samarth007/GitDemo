@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-02T15:17:22 IST" name="Suite" finished-at="2020-10-02T15:18:05 IST" duration-ms="42928">
+    <groups>
+    </groups>
+    <test started-at="2020-10-02T15:17:22 IST" name="Test1" finished-at="2020-10-02T15:17:52 IST" duration-ms="30038">
+      <class name="Project.Framework.validate">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:Project.Framework.validate@1e7aa82b]" started-at="2020-10-02T15:17:22 IST" name="beforetest" finished-at="2020-10-02T15:17:26 IST" duration-ms="4463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="n()[pri:0, instance:Project.Framework.validate@1e7aa82b]" started-at="2020-10-02T15:17:26 IST" name="n" finished-at="2020-10-02T15:17:51 IST" duration-ms="24841" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COUR] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COUR] but found [FEATURED COURSES]
+at Project.Framework.validate.n(validate.java:34)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- n -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Project.Framework.validate@1e7aa82b]" started-at="2020-10-02T15:17:51 IST" name="aftertest" finished-at="2020-10-02T15:17:52 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Project.Framework.validate -->
+    </test> <!-- Test1 -->
+    <test started-at="2020-10-02T15:17:22 IST" name="Test2" finished-at="2020-10-02T15:18:05 IST" duration-ms="42928">
+      <class name="Project.Framework.Base">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:Project.Framework.Base@72758afa]" started-at="2020-10-02T15:17:22 IST" name="beforetest" finished-at="2020-10-02T15:17:26 IST" duration-ms="4451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="n(java.lang.String, java.lang.String)[pri:0, instance:Project.Framework.Base@72758afa]" started-at="2020-10-02T15:17:26 IST" name="n" data-provider="data" finished-at="2020-10-02T15:17:58 IST" duration-ms="31819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samarthakrao]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[007]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- n -->
+        <test-method signature="n(java.lang.String, java.lang.String)[pri:0, instance:Project.Framework.Base@72758afa]" started-at="2020-10-02T15:17:58 IST" name="n" data-provider="data" finished-at="2020-10-02T15:18:00 IST" duration-ms="2451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[006]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- n -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Project.Framework.Base@72758afa]" started-at="2020-10-02T15:18:00 IST" name="aftertest" finished-at="2020-10-02T15:18:05 IST" duration-ms="4151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Project.Framework.Base -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
