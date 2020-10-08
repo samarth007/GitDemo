@@ -36,6 +36,11 @@ public class validate extends Initial{
 	   
 	}	
 	
+	@Test
+	public void d() {
+		System.out.println("d");
+	}
+	
 	@AfterTest
 	public void aftertest() {
 		System.out.println("uuuu");

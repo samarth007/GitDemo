@@ -62,6 +62,11 @@ public class Base extends Initial{
 		return d;
 	}
 	
+	@Test
+	public void done() {
+		System.out.println("done");
+	}
+	
 	
 	@AfterTest
 	public void aftertest() {
